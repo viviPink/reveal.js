@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=no"> <!--что-то здесь потыкала и таблица встала-->
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+	
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+                             <div class="reveal">
+			<div class="slides"> 
+				<section>Веб-фреимворки для создания презентаций</section>
+
+<section>
+      <section >  Цель проекта: анализ популярных веб-фреимворков для создания презентаций.</section>
+				<section >
+<ul> 
+ <h1>Задачи проекта:</h1>
+<li class="fragment">Поиск популярных веб-фреимворков</li>
+<br>
+<li class="fragment">Изучение возможностей фреимворков</li>
+<li class="fragment">Создание презентации на одном из фреимворков</li>
+<li class="fragment">Сравнительный анализ фреиворков, в том числе
+ сравнение с популярными решениями для создания презентаций
+(Prezi,Power Point,Google Slides)</li>
+<ul> 
+</section> 
+</section>
+
+
+<style text>
+    :root { --r-main-font-size: 21px; }  <!-- шрифт был слишком большим, я подключила что-то-->
+</style>   
+
+<section style="background-color:#9ACD32";>                                     
+<section> 
+<table>                                          
+<thead> 
+<tr> <th>Параметры сравнения</th>
+       <th> PowerPoint</th>
+       <th>Google Slides</th>
+      <th>Impress.js</th>
+      <th>Revel.js</th>
+      <th>Prezi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Вставка фото/видео/айдиофайлов</td>
+<td> +</td>
+<td> +</td>
+<td> +</td>
+<td> +</td>
+<td> +</td>
+</tr>
+<tr>
+<td>Вставка таблицы</td>
+<td> +</td>
+<td> +</td>
+<td> +     с помощью Таbles Generation</td>
+<td> +</td>
+<td> +</td>
+</tr>
+<tr>
+<td>Заметки докладчика</td>
+<td> +</td>
+<td> +</td>
+<td> -</td>
+<td> +</td>
+<td> -</td>
+</tr>
+<td>Совместная работа</td>
+<td> +   через РowerPointOnline</td>
+<td> +</td>
+<td> -    через git (GitHub и аналоги)</td>
+<td> -    через git (GitHub и аналоги)</td>
+<td> +</td>
+</tr>
+<td>Преобразование текста в речь</td>
+<td> +</td>
+<td> +</td>
+<td> +</td>
+<td> +</td>
+<td> -</td>
+</tr>
+<td>Печать pdf</td>
+<td> +</td>
+<td> +</td>
+<td> +</td>
+<td> +</td>
+<td> +</td>
+</tr>
+<td>Вставка формул</td>
+<td> +</td>
+<td> +</td>
+<td> -</td>
+<td> +</td>
+<td> -</td>
+</tr>
+<td>Подстветка кода</td>
+<td> -</td>
+<td> -  через дополнения</td>
+<td> -  с помощью сторонних JavaScript библиотек </td>
+<td> +</td>
+<td> -</td>
+</tr>
+<td>Переход по ссылке</td>
+<td> +</td>
+<td> +</td>
+<td> -</td>
+<td> -</td>
+<td> +</td>
+</tr>
+</table>
+</section>
+
+
+
+			</div>
+
+
+		</div>
+     
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+				// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
