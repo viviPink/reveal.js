@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=no"> 
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+
+</head>
+	      <body>
+	      	
+
+            <div class="reveal">
+			<div class="slides"> 
+
+
+<section><h1>Веб-фреимворки для создания презентаций</h1></section>  <!--не работает-->
+<section><div class="formula display"> \frac{1}{1 + e^{-x}} </div></section>
+
+      <section>
+       
+<section data-auto-animate>
+  <h1>Цель проекта:</h1> <!--анимация-->
+</section>
+<section data-auto-animate>
+  <h1>анализ популярный веб-фреимворков</h1>
+  <h1>для создания презентаций</h1></section>
+	  <section >
+       <ul> 
+       <h1>Задачи проекта:</h1>
+<li class="fragment">Поиск популярных веб-фреимворков</li>
+<br>
+<li class="fragment">Изучение возможностей фреимворков</li>
+<br>
+<li class="fragment">Создание презентации на одном из фреимворков</li>
+<br>
+<li class="fragment">Сравнительный анализ фреиворков, в том числе
+ сравнение с популярными решениями для создания презентаций
+(Prezi,Power Point,Google Slides)</li>
+<ul> 
+      </section> 
+      </section>
+
+<!--вставка кода-->
+<section><h1>вставка кода на примере таблицы</h1>
+  <pre><code>
+  	<table>
+  	<thead>
+<tr>
+<th>opening</th>
+<th>name</th>
+</tr>
+
+</thead>
+    <tbody>
+<tr>
+<td>radio</td>
+<td>Popov</td>
+</tr>
+
+   </tbody>
+   </table>
+ </code></pre>
+</section> <!--вставка картинки задним планом-->
+<section data-background-image="https://losper.net/uploads/monthly_2020_07/large.15889264822019-02-19_12-25-09.png.b137d08a9dc8740e314f99db21a2a459.png" 
+          data-background-size="1000px" data-background-repeat="repeat"></section>
+
+<section><!--каритинка-->
+<section>
+  <img data-src="image.png">
+  <iframe data-src="https://losper.net/uploads/monthly_2020_07/large.15889264822019-02-19_12-25-09.png.b137d08a9dc8740e314f99db21a2a459.png"  style="width: 900px; height: 800px"> 
+ </div>></iframe>
+</section>
+ <section>
+ 	<video data-autoplay src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"></video>
+</section>
+</section>
+
+<style text>
+    :root { --r-main-font-size: 21px; }  <!-- шрифт был слишком большим, я подключила что-то-->
+</style>   
+
+<section style="background-color:#8dd9bf";>   <!--цвет таблицы-->     
+<section> 
+<table>                                          
+<thead> 
+<tr> <th>Параметры сравнения</th>
+       <th> PowerPoint</th>
+       <th>Google Slides</th>
+      <th>Impress.js</th>
+      <th>Revel.js</th>
+      <th>Prezi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Вставка фото/видео/айдиофайлов</td>
+<td> +</td>
+<td> +</td>
+<td> +</td>
+<td> +</td>
+<td> +</td>
+</tr>
+<tr>
+<td>Вставка таблицы</td>
+<td> +</td>
+<td> +</td>
+<td> +     с помощью Таbles Generation</td>
+<td> +</td>
+<td> +</td>
+</tr>
+<tr>
+<td>Заметки докладчика</td>
+<td> +</td>
+<td> +</td>
+<td> -</td>
+<td> +</td>
+<td> -</td>
+</tr>
+<td>Совместная работа</td>
+<td> +   через РowerPointOnline</td>
+<td> +</td>
+<td> -    через git (GitHub и аналоги)</td>
+<td> -    через git (GitHub и аналоги)</td>
+<td> +</td>
+</tr>
+<td>Преобразование текста в речь</td>
+<td> +</td>
+<td> +</td>
+<td> +</td>
+<td> +</td>
+<td> -</td>
+</tr>
+<td>Печать pdf</td>
+<td> +</td>
+<td> +</td>
+<td> +</td>
+<td> +</td>
+<td> +</td>
+</tr>
+<td>Вставка формул</td>
+<td> +</td>
+<td> +</td>
+<td> -</td>
+<td> +</td>
+<td> -</td>
+</tr>
+<td>Подстветка кода</td>
+<td> -</td>
+<td> -  через дополнения</td>
+<td> -  с помощью сторонних JavaScript библиотек </td>
+<td> +</td>
+<td> -</td>
+</tr>
+<td>Переход по ссылке</td>
+<td> +</td>
+<td> +</td>
+<td> -</td>
+<td> -</td>
+<td> +</td>
+</tr>
+</table>
+</section>
+
+
+			</div>
+
+		</div>
+     
+      
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+            <script src="plugin/highlight/highlight.js"></script>
+            <script src="plugin/math/math.js"></script>                 <!--матем-ий-->
+<script>
+  Reveal.initialize({ plugins: [ RevealMath.KaTeX ] });
+</script>
+		<script>
+				// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+		
+
+	</body>
+</html>
